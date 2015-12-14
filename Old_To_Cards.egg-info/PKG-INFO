@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: Old-To-Cards
+Version: 1.0
+Summary: Update your CSS from Bootstrap 3 to Bootstrap 4
+Home-page: www.microchip.com/iot/
+Author: Iot & HASG Group
+Author-email: xxxxxx@microchip.com
+License: UNKNOWN
+Description: Update Panel,Thumbnails and Well definition to Cards with Old-To-Cards.
+Keywords: CSS HTML
+Platform: Operating System :: MacOS :: MacOS X
+Platform: Operating System :: Microsoft :: Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: DevelopersLicense :: OSI Approved :: MIT License
+Classifier: Natural Language :: English

@@ -1,0 +1,3 @@
+[gui_scripts]
+Old-To-Cards = Old_To_Cards.old_to_cards:main
+

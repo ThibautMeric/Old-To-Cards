@@ -16,10 +16,10 @@ except:
     import ttk as ttk
     import tkMessageBox
     from Tkinter import *
-from Step1.InitializeStep1 import *
-from Step2.InitializeStep2 import *
-from Step3.InitializeStep3 import *
-from Step1.RefreshStep1 import *
+from Old_To_Cards.Step1.InitializeStep1 import *
+from Old_To_Cards.Step2.InitializeStep2 import *
+from Old_To_Cards.Step3.InitializeStep3 import *
+from Old_To_Cards.Step1.RefreshStep1 import *
 import os
 import platform
 import Old_To_Cards
@@ -103,12 +103,12 @@ elif(platform.system() == 'Darwin'):
 else:
     WindowSetting["Reduce"] = 0.7
     WindowSetting["Enlarge"] = 1.2
-    
+
 lfStep1 = tk.LabelFrame(Window, text="Step1:")
 lfStep2 = tk.LabelFrame(Window, text="Step2:")
 lfStep3 = tk.LabelFrame(Window, text="Step3:")
-    
-InitializeStep1(lfStep1, lfStep2, lfStep3, WindowSetting, HtmlPath, Bottom, HtmlTable, ConversionDict, CardTable)
+
+InitializeStep1(lfStep1, lfStep2, lfStep3,WindowSetting, HtmlPath, HtmlTable, ConversionDict, CardTable)
 InitializeStep2(lfStep2)
 InitializeStep3(lfStep1, lfStep2, lfStep3, WindowSetting, Version, HtmlPath, HtmlTable)
 RefreshStep1(lfStep1, WindowSetting, HtmlPath)
